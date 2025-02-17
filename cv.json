@@ -1,106 +1,105 @@
 {
   "basics": {
-    "name": "John Doe",
+    "name": "Xueshan Wang",
     "label": "Junior Full Stack Developer",
-    "image": "/me_avatar.jpg",
-    "email": "john.doe@example.com",
-    "phone": "+1 555-555-5555",
-    "url": "https://johndoe.dev",
+    "image": null,
+    "email": "xuewang414@icloud.com",
+    "phone": null,
+    "url": "https://cytrogen.icu/",
     "summary": "Junior Full Stack Developer with a passion for building web applications. Currently seeking opportunities to further develop my skills in a professional setting.",
     "theme": "default",
     "location": {
       "address": "",
       "postalCode": "10001",
-      "city": "Auckland",
-      "countryCode": "NZ",
-      "region": "New Zealand"
+      "city": "New York",
+      "countryCode": "NY",
+      "region": "United States"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "john-doe",
-        "url": "https://linkedin.com/in/john-doe"
+        "username": "xueshanw",
+        "url": "https://www.linkedin.com/in/xueshanw/"
       },
       {
-        "network": "X",
-        "username": "john-doe",
-        "url": "https://x.com/john-doe"
+        "network": "Facebook",
+        "username": "Xueshan Wang",
+        "url": "https://www.facebook.com/people/Xueshan-Wang/pfbid0CKYBdMNtrGAJBzp2uAKbQVPuWMUdPixqyQtxnnbwrNdHDVLcUQCB9cs9Qi2aAjusl/"
       },
       {
         "network": "GitHub",
-        "username": "johndoe",
-        "url": "https://github.com/johndoe"
+        "username": "Cytrogen",
+        "url": "https://github.com/Cytrogen"
       }
     ]
   },
   "work": [
     {
-      "name": "Tech Startup",
-      "position": "Junior Web Developer",
-      "location_type": "On site",
-      "location": "Auckland, New Zealand",
-      "url": "https://techstartup.com",
-      "startDate": "2024-01-01",
+      "name": "Verderia NGO",
+      "position": "Website Administrator",
+      "location_type": "Remote",
+      "location": "Remote",
+      "url": null,
+      "startDate": "2024-12",
       "endDate": null,
-      "summary": "Developing and maintaining web applications using JavaScript, HTML, and CSS. Collaborating with the team to implement new features and fix bugs.",
+      "summary": "Managing and maintaining the organization's WordPress website while implementing performance optimizations through CloudFlare and ensuring alignment with organizational objectives.",
       "highlights": [
-        "Improved website performance by optimizing code"
+        "Implemented CloudFlare for improved website performance and security",
+        "Managed WordPress site maintenance and content updates",
+        "Successfully configured and maintained DNS settings"
       ],
       "responsibilities": [
-        "Collaborated with senior developers to design and implement web applications using modern JavaScript frameworks.",
-        "Assisted in debugging and optimizing front-end code to ensure smooth user experiences.",
-        "Participated in code reviews and contributed to improving coding standards within the team."
+        "Developed and maintained the organization's WordPress website",
+        "Managed domain registration and DNS configuration through CloudFlare",
+        "Provided technical support and WordPress solutions for day-to-day operations",
+        "Implemented website updates and security patches",
+        "Collaborated with team members to ensure website content alignment with goals"
       ],
       "achievements": [
-        "Developing and maintaining web applications using JavaScript, HTML, and CSS. Collaborating with the team to implement new features and fix bugs."
+        "Enhanced website security and performance through CloudFlare integration",
+        "Established efficient WordPress maintenance procedures",
+        "Streamlined content management workflow"
+      ],
+      "skills": [
+        "WordPress",
+        "CloudFlare",
+        "DNS Management",
+        "Yoast SEO",
+        "Content Management",
+        "Technical Support"
+      ]
+    },
+    {
+      "name": "LotusHabits",
+      "position": "Frontend Developer",
+      "location_type": "Hybrid",
+      "location": "New York, United States",
+      "url": null,
+      "startDate": "2024-01",
+      "endDate": "2024-04",
+      "summary": "Collaborated with cross-functional teams to develop responsive web applications using React and Redux, with a focus on enhancing user experience through improved content rendering and Firebase integration.",
+      "highlights": [
+        "Implemented advanced Markdown rendering system to improve content readability",
+        "Built robust user authentication system using Firebase",
+        "Managed complex application state with Redux"
+      ],
+      "responsibilities": [
+        "Developed and maintained React-based web applications with Redux state management",
+        "Implemented user authentication and data persistence using Firebase",
+        "Collaborated with cross-functional teams to design and implement responsive web applications",
+        "Enhanced content display by implementing advanced Markdown rendering capabilities"
+      ],
+      "achievements": [
+        "Improved user experience by developing an enhanced Markdown rendering system",
+        "Successfully implemented and maintained secure user authentication flow",
+        "Established efficient state management patterns using Redux"
       ],
       "skills": [
         "React",
-        "Tailwind",
-        "GitHub"
-      ]
-    },
-    {
-      "name": "Innovative Solutions",
-      "position": "Junior Software Developer",
-      "location_type": "Hybrid",
-      "location": "Wellington, New Zealand",
-      "url": "https://innovativesolutions.com",
-      "startDate": "2022-06-01",
-      "endDate": "2023-06-01",
-      "summary": "Assisting in the development and maintenance of software applications using Python and Django. Collaborating with cross-functional teams to ensure quality and timely delivery of software solutions.",
-      "highlights": [
-        "Contributed to a major project that streamlined internal workflows, improving efficiency by 30%"
-      ],
-      "responsibilities": [
-        "Developed and maintained backend services using Python and Django.",
-        "Worked closely with front-end developers to integrate user-facing elements with server-side logic.",
-        "Participated in daily stand-ups and bi-weekly sprint planning meetings to ensure alignment with project goals."
-      ],
-      "achievements": [
-        "Successfully implemented a feature that enhanced user authentication, improving security measures."
-      ],
-      "skills": [
-        "Python",
-        "Django",
-        "SQL",
-        "Git"
-      ]
-    },
-    {
-      "name": "Web Agency",
-      "position": "Intern Web Developer",
-      "location_type": "Remote",
-      "location": "Sydney, Australia",
-      "startDate": "2022-06-01",
-      "endDate": "2022-12-01",
-      "summary": "Assisted in developing client websites and applications. Gained hands-on experience with front-end and back-end technologies.",
-      "highlights": [
-        "Completed several client projects successfully"
-      ],
-      "skills": [
-        "HTML",
-        "CSS"
+        "Redux",
+        "Firebase",
+        "Git",
+        "Responsive Design"
       ]
     }
   ],
@@ -119,195 +118,134 @@
   ],
   "education": [
     {
-      "institution": "State University",
-      "url": "https://stateuniversity.edu",
+      "institution": "Baruch College",
+      "url": "https://www.baruch.cuny.edu/",
       "area": "Computer Science",
-      "studyType": "Bachelor",
-      "startDate": "2018-09-01",
-      "endDate": "2022-05-01",
-      "score": "3.8",
-      "courses": [
-        "CS101 - Introduction to Computer Science",
-        "CS102 - Data Structures"
-      ]
+      "studyType": "Bachelor of Science - BS",
+      "startDate": "2023-08",
+      "endDate": "2027-06",
+      "score": null,
+      "courses": []
     },
     {
-      "institution": "Tech Institute",
-      "url": "https://techinstitute.edu",
-      "area": "Software Engineering",
-      "studyType": "Master",
-      "startDate": "2020-09-01",
-      "endDate": "2022-12-01",
-      "score": "3.9",
-      "courses": [
-        "SE201 - Advanced Software Development",
-        "SE202 - Software Architecture and Design"
-      ]
-    },
-    {
-      "institution": "City College",
-      "url": "https://citycollege.edu",
-      "area": "Information Technology",
-      "studyType": "Associate Degree",
-      "startDate": "2017-01-01",
-      "endDate": "2019-12-01",
-      "score": "3.7",
-      "courses": [
-        "IT101 - Networking Fundamentals",
-        "IT102 - Database Management Systems"
-      ]
+      "institution": "High School of Fashion Industries",
+      "url": "https://www.hsfi.nyc/",
+      "area": "Graphic Design",
+      "studyType": "High School Diploma",
+      "startDate": "2019-09",
+      "endDate": "2023-06",
+      "score": null,
+      "courses": []
     }
   ],
   "certificates": [
     {
-      "name": "Full Stack Web Development",
-      "date": "2023-05-01",
-      "issuer": "Online University",
-      "url": "https://onlineuniversity.com/certificates/fullstack"
+      "name": "Full Stack Application Development",
+      "date": "2024-07",
+      "issuer": "IBM",
+      "url": "http://credentials.edx.org/credentials/500597d8a3194bc5a36dd860d7e05c08/"
+    },
+    {
+      "name": "AWS APAC - Solutions Architecture",
+      "date": "2024-07",
+      "issuer": "Forage",
+      "url": "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/AWS/kkE9HyeNcw6rwCRGw_AWS%20APAC_NXBfKxjzRXxZx9Qns_1721688206871_completion_certificate.pdf"
+    },
+    {
+      "name": "Software Engineering",
+      "date": "2024-07",
+      "issuer": "J.P. Morgan via Forage",
+      "url": "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/R5iK7HMxJGBgaSbvk_J.P.%20Morgan_NXBfKxjzRXxZx9Qns_1720411263732_completion_certificate.pdf"
+    },
+    {
+      "name": "Agile Methodologies",
+      "date": "2024-07",
+      "issuer": "JPMorgan Chase & Co. via Forage",
+      "url": "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/5QiaMtZ4k8ngYKn4D_JPMorgan%20Chase%20&%20Co._NXBfKxjzRXxZx9Qns_1720460766984_completion_certificate.pdf"
+    },
+    {
+      "name": "CS50's Introduction to Programming with Python",
+      "date": "2023-10",
+      "issuer": "CS50",
+      "url": "https://certificates.cs50.io/396eda1b-fa87-4c11-99ed-7e2b7aec4623.png"
+    },
+    {
+      "name": "CS50's Introduction to Artificial Intelligence with Python",
+      "date": "2023-09",
+      "issuer": "CS50",
+      "url": "https://certificates.cs50.io/6c7cc2d1-ae4d-44de-9d4d-4e2db88531a9.png"
+    },
+    {
+      "name": "CS50's Introduction to Computer Science",
+      "date": "2022-12",
+      "issuer": "CS50",
+      "url": "https://cs50.harvard.edu/certificates/a9b155f9-bd43-4c0d-9393-89a0efd051bb.png"
     }
   ],
   "skills": [
     {
-      "name": "Figma",
-      "level": "Expert",
-      "keywords": [
-        "Design",
-        "UI"
-      ]
+      "name": "React",
+      "level": "Advanced",
+      "keywords": ["Frontend Development", "UI Framework"]
     },
     {
-      "name": "Gitlab",
+      "name": "Nestjs",
       "level": "Intermediate",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code"
-      ]
-    },
-    {
-      "name": "HTML",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend"
-      ]
-    },
-    {
-      "name": "CSS",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Responsive Design"
-      ]
-    },
-    {
-      "name": "JavaScript",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Backend",
-        "Fullstack"
-      ]
-    },
-    {
-      "name": "Tailwind",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "CSS Framework",
-        "Responsive Design"
-      ]
+      "keywords": ["Backend Development", "Node.js Framework"]
     },
     {
       "name": "TypeScript",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Backend",
-        "JavaScript Superset"
-      ]
+      "level": "Advanced",
+      "keywords": ["Static Typing", "JavaScript Superset"]
     },
     {
-      "name": "Node",
+      "name": "Python",
       "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "JavaScript",
-        "Server"
-      ]
-    },
-    {
-      "name": "MySQL",
-      "level": "Intermediate",
-      "keywords": [
-        "Databases",
-        "SQL",
-        "Data Storage",
-        "Backend"
-      ]
+      "keywords": ["Backend Development", "Data Processing"]
     },
     {
       "name": "Git",
-      "level": "Intermediate",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code"
-      ]
-    },
-    {
-      "name": "GitHub",
-      "level": "Intermediate",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code",
-        "Git"
-      ]
-    },
-    {
-      "name": "Next.js",
-      "level": "Beginner",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "React Framework",
-        "SSR",
-        "Static Generation"
-      ]
-    },
-    {
-      "name": "React",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "JavaScript Library",
-        "UI"
-      ]
+      "level": "Advanced",
+      "keywords": ["Version Control", "Collaboration"]
     }
   ],
   "languages": [
     {
-      "language": "English",
-      "fluency": "Native speaker"
+      "language": "Chinese",
+      "fluency": "Native or bilingual proficiency"
     },
     {
-      "language": "Spanish",
-      "fluency": "Intermediate"
+      "language": "English",
+      "fluency": "Limited working proficiency"
+    },
+    {
+      "language": "Japanese",
+      "fluency": "Elementary proficiency"
     }
   ],
   "interests": [
     {
+      "name": "Technical Writing",
+      "keywords": [
+        "Technical Blogs",
+        "Programming Tutorials",
+        "Knowledge Sharing"
+      ]
+    },
+    {
       "name": "Technology",
       "keywords": [
-        "AI",
-        "Blockchain"
+        "Web Development",
+        "Software Engineering",
+        "New Technologies"
+      ]
+    },
+    {
+      "name": "Game Development",
+      "keywords": [
+        "Unity Engine",
+        "Game Jams",
+        "Indie Game Development"
       ]
     }
   ],
@@ -319,46 +257,81 @@
   ],
   "projects": [
     {
-      "name": "Personal Portfolio",
-      "isActive": false,
-      "description": "A personal portfolio website to showcase my projects and skills.",
-      "highlights": [
-        "Built with React and Tailwind CSS",
-        "Includes a blog and contact form"
-      ],
-      "url": "https://johndoe.dev",
-      "github": "https://github.com"
-    },
-    {
-      "name": "Weather App",
+      "name": "Shopping-Nest",
       "isActive": true,
-      "description": "A web application that provides weather information for any location.",
+      "description": "A full-stack e-commerce platform built to explore and document the complete development process, serving as both a practical implementation and educational content.",
       "highlights": [
-        "Built with JavaScript and OpenWeatherMap API",
-        "Responsive design"
+        "Building frontend with React and TailwindCSS, backend with NestJS and MySQL",
+        "Implementing user authentication, product management, and shopping cart functionality",
+        "Creating RESTful APIs and establishing secure database connections",
+        "Documenting development process through technical blog posts"
       ],
-      "url": "https://weatherapp.com"
+      "url": null,
+      "github": null
     },
     {
-      "name": "Task Manager",
+      "name": "Portfolio Website",
       "isActive": true,
-      "description": "A simple task management app to keep track of daily tasks.",
+      "description": "Personal portfolio website built to showcase projects and skills with modern web technologies.",
       "highlights": [
-        "Built with Node.js and MongoDB",
-        "User authentication and CRUD operations"
+        "Developing with Astro framework and TailwindCSS for optimal performance",
+        "Implementing responsive design and dark mode support",
+        "Creating interactive project showcases and skills section"
       ],
-      "url": "https://taskmanager.com",
-      "github": "https://github.com"
+      "url": null,
+      "github": null
     },
     {
-      "name": "E-commerce Site",
+      "name": "Hotaru.TS",
       "isActive": false,
-      "description": "An online store built with Next.js and Stripe for payment processing.",
+      "description": "A Discord-inspired full-stack chat application built for learning purposes.",
       "highlights": [
-        "Product management and shopping cart functionality",
-        "Secure payment integration"
+        "Built frontend with React and backend with NestJS",
+        "Implemented real-time chat using Socket.io and data storage with MongoDB",
+        "Integrated file storage system using MinIO",
+        "Developed user authentication and authorization system"
       ],
-      "url": "https://ecommerce.com"
+      "url": null,
+      "github": "https://github.com/Cytrogen/Hotaru.TS"
+    },
+    {
+      "name": "BetterBaruch",
+      "isActive": true,
+      "description": "A Chrome/Edge extension that enhances the Baruch College website experience for students.",
+      "highlights": [
+        "Developed browser extension using JavaScript",
+        "Built serverless backend with Express.js deployed on AWS Lambda",
+        "Published and maintaining extension on Chrome Web Store",
+        "Improving student website usability through various features"
+      ],
+      "url": "https://chromewebstore.google.com/detail/better-baruch/hbhppighkhlcjdbijfgehnjklhepmcmb",
+      "github": null
+    },
+    {
+      "name": "Personal Blog",
+      "isActive": true,
+      "description": "Personal blog for sharing technical insights and experiences.",
+      "highlights": [
+        "Built with Hexo framework for static site generation",
+        "Writing technical articles and tutorials",
+        "Customizing theme and functionality",
+        "Managing content deployment and maintenance"
+      ],
+      "url": "https://cytrogen.icu/",
+      "github": null
+    },
+    {
+      "name": "Hexo-Theme-Ares",
+      "isActive": true,
+      "description": "A feature-rich Hexo theme with built-in search, code blocks, Mermaid diagrams, and internationalization support.",
+      "highlights": [
+        "Developed using Pug templating and JavaScript",
+        "Implemented local search functionality and code block highlighting",
+        "Added Mermaid diagram support and internationalization",
+        "Integrated Disqus comments and Google Analytics"
+      ],
+      "url": null,
+      "github": "https://github.com/Cytrogen/hexo-theme-ares"
     }
   ]
 }
