@@ -295,6 +295,19 @@
       "github": "https://github.com/Cytrogen/Hotaru.TS"
     },
     {
+      "name": "Kaspersky To 1Password",
+      "isActive": true,
+      "description": "A simple online tool for converting TXT files exported from Kaspersky Password Manager into CSV format that can be imported into 1Password and other password managers.",
+      "highlights": [
+        "Implemented client-side processing ensuring all data remains local for maximum security",
+        "Built with React and Tailwind CSS for a responsive, user-friendly interface",
+        "Added support for Unicode characters including Chinese text",
+        "Created UTF-8 encoding for CSV outputs compatible with multiple password managers"
+      ],
+      "url": "https://ktoc.cytrogen.icu",
+      "github": "https://github.com/Cytrogen/kaspersky-to-1password"
+    },
+    {
       "name": "BetterBaruch",
       "isActive": true,
       "description": "A Chrome/Edge extension that enhances the Baruch College website experience for students.",
