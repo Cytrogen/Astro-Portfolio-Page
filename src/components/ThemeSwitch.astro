@@ -3,27 +3,75 @@ import Theme from "@/icons/themeSwitch.astro";
 ---
 
 <div class="no-print inline-flex items-center">
-	<!-- <div class="flex items-center gap-1">
-		<Theme />
-		<select name="themeSwitch" id="themeSwitch" class="block w-full rounded-md border-0 py-1.5 pl-3 pr-10 text-gray-900 dark:text-gray-100 dark:ring-gray-700 sm:text-sm sm:leading-6">
-			<option value="system">System</option>
-			<option value="dark">Dark</option>
-			<option value="light">Light</option>
-		</select>
-	</div> -->
-
 	<div class="group/theme flex items-center gap-2">
-		<label for="themeSwitch" class="flex items-center gap-1 text-sm font-medium leading-6 text-skin-base transition-transform ease-in-out group-hover/theme:rotate-45"> <Theme /></label>
-		<select id="themeSwitch" name="themeSwitch" class="focus:ring-skin-hue ring-skin-muted block w-full rounded-md border-0 py-1.5 pl-3 pr-10 text-skin-base ring-1 ring-inset focus:ring-2 sm:text-sm sm:leading-6">
+		<label for="themeSwitch" class="flex items-center gap-1 text-sm font-medium leading-6 text-skin-base transition-transform ease-in-out group-hover/theme:rotate-45"> 
+			<Theme />
+		</label>
+		<select 
+			id="themeSwitch" 
+			name="themeSwitch" 
+			class="focus:ring-skin-hue ring-skin-muted block w-full rounded-md border-0 py-1.5 pl-3 pr-10 text-skin-base ring-1 ring-inset focus:ring-2 sm:text-sm sm:leading-6"
+		>
 			<option value="system">System</option>
 			<option value="dark">Dark</option>
 			<option value="light">Light</option>
 		</select>
 	</div>
 
-	<style>
-		:global(.dark) {
+	<style is:global>
+		.dark {
 			color-scheme: dark;
+		}
+
+		/* Override select element styles in dark mode */
+		.dark select#themeSwitch {
+			background-color: #121212 !important;
+			color: #f3f4f6 !important;
+			border-color: #4b5563 !important;
+		}
+
+		/* Override option element styles in dark mode */
+		.dark select#themeSwitch option {
+			background-color: #121212 !important;
+			color: #f3f4f6 !important;
+		}
+
+		.dark select#themeSwitch option:hover,
+		.dark select#themeSwitch option:focus {
+			background-color: #4b5563 !important;
+			color: #ffffff !important;
+		}
+
+		/* Ensure effectiveness across all browsers */
+		.dark select#themeSwitch,
+		.dark select#themeSwitch * {
+			color-scheme: dark !important;
+		}
+
+		/* For WebKit browsers only */
+		@supports (-webkit-appearance: none) {
+			.dark select#themeSwitch {
+				-webkit-appearance: none;
+				appearance: none;
+				background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%23f3f4f6' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e");
+				background-position: right 0.5rem center;
+				background-repeat: no-repeat;
+				background-size: 1.5em 1.5em;
+				padding-right: 2.5rem;
+			}
+		}
+
+		/* For Firefox only */
+		@-moz-document url-prefix() {
+			.dark select#themeSwitch {
+				color: #f3f4f6 !important;
+				background-color: #121212 !important;
+			}
+			
+			.dark select#themeSwitch option {
+				color: #f3f4f6 !important;
+				background-color: #121212 !important;
+			}
 		}
 	</style>
 
@@ -43,6 +91,12 @@ import Theme from "@/icons/themeSwitch.astro";
 			document.documentElement.classList.remove("light", "dark");
 			document.documentElement.classList.add(theme);
 			localStorage.setItem("theme", value);
+			
+			setTimeout(() => {
+				select.blur();
+				select.focus();
+				select.blur();
+			}, 10);
 		}
 
 		updateTheme(select.value);
@@ -50,6 +104,12 @@ import Theme from "@/icons/themeSwitch.astro";
 		select.addEventListener("change", (event: Event) => {
 			const select = event.target as HTMLSelectElement;
 			updateTheme(select.value);
+		});
+
+		window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e) => {
+			if (select.value === "system") {
+				updateTheme("system");
+			}
 		});
 	</script>
 </div>
