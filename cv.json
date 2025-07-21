@@ -101,18 +101,71 @@
         "Git",
         "Responsive Design"
       ]
-    }
-  ],
-  "volunteer": [
+    },
     {
-      "organization": "Local Coding Club",
-      "position": "Volunteer",
-      "url": "https://codingclub.com/",
-      "startDate": "2021-01-01",
-      "endDate": "2022-01-01",
-      "summary": "Helped organize coding workshops and mentored new members.",
+      "name": "Song Tea",
+      "position": "Tea Shop Associate",
+      "location_type": "In-person",
+      "location": "New York, United States",
+      "url": null,
+      "startDate": "2023-07",
+      "endDate": "2024-07",
+      "summary": "Provided excellent customer service at a to-go bubble tea shop, handling all aspects of beverage preparation and customer interactions.",
       "highlights": [
-        "Awarded 'Volunteer of the Month'"
+        "Prepared high-quality bubble tea beverages according to customer specifications",
+        "Delivered exceptional customer service in a fast-paced to-go environment",
+        "Maintained cleanliness and organization of work station and equipment"
+      ],
+      "responsibilities": [
+        "Greeted and assisted customers with menu selections and special requests",
+        "Prepared various bubble tea drinks including fruit teas, milk teas, and specialty beverages",
+        "Operated point-of-sale system for order processing and payment handling",
+        "Maintained inventory of ingredients and supplies"
+      ],
+      "achievements": [
+        "Consistently maintained high customer satisfaction in busy to-go environment",
+        "Mastered preparation of diverse menu items efficiently"
+      ],
+      "skills": [
+        "Customer Service",
+        "Beverage Preparation",
+        "POS Systems",
+        "Time Management",
+        "Food Safety"
+      ]
+    },
+    {
+      "name": "New Kims Wei Restaurant",
+      "position": "Multi-role Associate",
+      "location_type": "In-person",
+      "location": "New York, United States",
+      "url": null,
+      "startDate": "2019-09",
+      "endDate": "2021-06",
+      "summary": "Performed multiple roles in a busy restaurant environment including cashier duties, phone orders, food packaging, front desk operations, and kitchen assistance.",
+      "highlights": [
+        "Successfully managed multiple responsibilities across front-of-house and kitchen operations",
+        "Handled customer transactions and phone orders with accuracy and efficiency",
+        "Supported kitchen operations including food preparation and frying duties"
+      ],
+      "responsibilities": [
+        "Operated cash register and processed customer payments accurately",
+        "Answered phone calls and took customer orders for takeout and delivery",
+        "Packaged food orders ensuring proper presentation and completeness",
+        "Managed front desk operations and greeted customers",
+        "Assisted with kitchen duties including frying and food preparation"
+      ],
+      "achievements": [
+        "Developed strong multitasking abilities while maintaining quality service",
+        "Gained comprehensive restaurant operation experience across multiple departments"
+      ],
+      "skills": [
+        "Customer Service",
+        "Cash Handling",
+        "Phone Communication",
+        "Food Preparation",
+        "Multitasking",
+        "Kitchen Operations"
       ]
     }
   ],
@@ -249,38 +302,36 @@
       ]
     }
   ],
-  "references": [
-    {
-      "name": "Jane Smith",
-      "reference": "Reference…"
-    }
-  ],
   "projects": [
     {
-      "name": "Shopping-Nest",
+      "name": "GameBoyJS",
       "isActive": true,
-      "description": "A full-stack e-commerce platform built to explore and document the complete development process, serving as both a practical implementation and educational resource.",
+      "description": "A modern JavaScript implementation of a Game Boy emulator built for the web using ES6+ features, designed as a comprehensive learning project to understand computer architecture and emulation principles.",
       "highlights": [
-        "Architected a comprehensive e-commerce solution with React and TailwindCSS frontend, NestJS and MySQL backend",
-        "Implemented secure user authentication, product catalog management, and interactive shopping cart functionality",
-        "Designed and developed RESTful APIs with proper validation and established secure database connections",
-        "Documented the entire development journey through detailed technical blog posts for educational purposes"
+        "Architected a complete Game Boy CPU emulator using modern ES6 JavaScript with modular design patterns",
+        "Implemented accurate instruction set emulation including registers, memory management, and timing cycles",
+        "Developed comprehensive PPU (Picture Processing Unit) for authentic graphics rendering and sprite handling",
+        "Created detailed technical documentation and tutorial articles explaining emulation concepts and implementation details",
+        "Built from scratch to understand low-level computer architecture, memory mapping, and hardware emulation principles",
+        "Ongoing development project focusing on accuracy, performance optimization, and educational value"
       ],
       "url": null,
-      "github": null
+      "github": "https://github.com/Cytrogen/GameBoyJs"
     },
     {
-      "name": "Portfolio Website",
+      "name": "Svg2SvgIcon Converter",
       "isActive": true,
-      "description": "Personal portfolio website showcasing projects and skills, built with modern web technologies for optimal performance and user experience.",
+      "description": "A pure client-side online tool that converts SVG code or files into Material-UI (MUI) SvgIcon components ready for use in React projects, featuring real-time preview and intelligent parsing capabilities.",
       "highlights": [
-        "Leveraged Astro framework and TailwindCSS to create a high-performance static website with minimal JavaScript",
-        "Implemented responsive design principles ensuring seamless experience across all device sizes",
-        "Integrated dark mode support with persistent user preferences and smooth transitions",
-        "Designed interactive project showcases with engaging animations and comprehensive skills visualization"
+        "Developed a React-based converter with Material-UI components for seamless SVG to MUI SvgIcon transformation",
+        "Implemented intelligent viewBox parsing that automatically detects existing viewBox attributes or generates them from width/height properties",
+        "Created a real-time viewBox controller with live preview, allowing precise adjustment of icon viewport and cropping",
+        "Built comprehensive SVG parsing engine supporting nested elements, inline styles, and complex SVG structures",
+        "Integrated error handling system with collapsible console and visual error indicators for enhanced user experience",
+        "Ensured complete client-side processing for maximum privacy and security without server data transmission"
       ],
-      "url": "https://portfolio.cytrogen.icu",
-      "github": "https://github.com/Cytrogen/Astro-Portfolio-Page"
+      "url": "https://svg2svgicon.cytrogen.icu",
+      "github": "https://github.com/cytrogen/svg2svgicon"
     },
     {
       "name": "BetterBaruch Toolbox Website",
@@ -326,6 +377,19 @@
       "github": "https://github.com/Cytrogen/BetterBaruchRN"
     },
     {
+      "name": "Portfolio Website",
+      "isActive": true,
+      "description": "Personal portfolio website showcasing projects and skills, built with modern web technologies for optimal performance and user experience.",
+      "highlights": [
+        "Leveraged Astro framework and TailwindCSS to create a high-performance static website with minimal JavaScript",
+        "Implemented responsive design principles ensuring seamless experience across all device sizes",
+        "Integrated dark mode support with persistent user preferences and smooth transitions",
+        "Designed interactive project showcases with engaging animations and comprehensive skills visualization"
+      ],
+      "url": "https://portfolio.cytrogen.icu",
+      "github": "https://github.com/Cytrogen/Astro-Portfolio-Page"
+    },
+    {
       "name": "Personal Blog",
       "isActive": true,
       "description": "A technical blog platform for sharing in-depth programming insights, tutorials, and development experiences with the broader tech community.",
@@ -337,19 +401,6 @@
       ],
       "url": "https://cytrogen.icu/en",
       "github": null
-    },
-    {
-      "name": "Kaspersky To 1Password",
-      "isActive": true,
-      "description": "A specialized web utility for converting TXT exports from Kaspersky Password Manager into CSV format compatible with 1Password and other password management solutions.",
-      "highlights": [
-        "Implemented client-side file processing architecture ensuring all sensitive data remains local for maximum security",
-        "Developed with React and Tailwind CSS to create a responsive, intuitive user interface across devices",
-        "Engineered comprehensive Unicode character support including CJK (Chinese, Japanese, Korean) text handling",
-        "Created robust UTF-8 encoding for CSV outputs ensuring compatibility with multiple password manager import systems"
-      ],
-      "url": "https://ktoc.cytrogen.icu",
-      "github": "https://github.com/Cytrogen/kaspersky-to-1password"
     },
     {
       "name": "HP Instant Ink Calculator",
@@ -366,18 +417,17 @@
       "github": "https://github.com/Cytrogen/hp-instant-ink-calculator"
     },
     {
-      "name": "Hotaru.TS",
-      "isActive": false,
-      "description": "A Discord-inspired full-stack real-time chat application built as a learning project to explore modern web technologies and architecture patterns.",
+      "name": "Kaspersky To 1Password",
+      "isActive": true,
+      "description": "A specialized web utility for converting TXT exports from Kaspersky Password Manager into CSV format compatible with 1Password and other password management solutions.",
       "highlights": [
-        "Architected a comprehensive chat platform with React frontend and NestJS backend utilizing TypeScript",
-        "Implemented real-time message delivery using Socket.io with optimized event handling and state management",
-        "Designed a scalable data persistence layer using MongoDB for message and user information storage",
-        "Integrated secure file sharing capabilities through MinIO object storage with proper access controls",
-        "Developed a robust authentication system with JWT tokens and role-based authorization"
+        "Implemented client-side file processing architecture ensuring all sensitive data remains local for maximum security",
+        "Developed with React and Tailwind CSS to create a responsive, intuitive user interface across devices",
+        "Engineered comprehensive Unicode character support including CJK (Chinese, Japanese, Korean) text handling",
+        "Created robust UTF-8 encoding for CSV outputs ensuring compatibility with multiple password manager import systems"
       ],
-      "url": null,
-      "github": "https://github.com/Cytrogen/Hotaru.TS"
+      "url": "https://ktoc.cytrogen.icu",
+      "github": "https://github.com/Cytrogen/kaspersky-to-1password"
     },
     {
       "name": "Hexo-Theme-Ares",
@@ -393,6 +443,33 @@
       ],
       "url": null,
       "github": "https://github.com/Cytrogen/hexo-theme-ares"
+    },
+    {
+      "name": "Shopping-Nest",
+      "isActive": false,
+      "description": "A full-stack e-commerce platform built to explore and document the complete development process, serving as both a practical implementation and educational resource.",
+      "highlights": [
+        "Architected a comprehensive e-commerce solution with React and TailwindCSS frontend, NestJS and MySQL backend",
+        "Implemented secure user authentication, product catalog management, and interactive shopping cart functionality",
+        "Designed and developed RESTful APIs with proper validation and established secure database connections",
+        "Documented the entire development journey through detailed technical blog posts for educational purposes"
+      ],
+      "url": null,
+      "github": null
+    },
+    {
+      "name": "Hotaru.TS",
+      "isActive": false,
+      "description": "A Discord-inspired full-stack real-time chat application built as a learning project to explore modern web technologies and architecture patterns.",
+      "highlights": [
+        "Architected a comprehensive chat platform with React frontend and NestJS backend utilizing TypeScript",
+        "Implemented real-time message delivery using Socket.io with optimized event handling and state management",
+        "Designed a scalable data persistence layer using MongoDB for message and user information storage",
+        "Integrated secure file sharing capabilities through MinIO object storage with proper access controls",
+        "Developed a robust authentication system with JWT tokens and role-based authorization"
+      ],
+      "url": null,
+      "github": "https://github.com/Cytrogen/Hotaru.TS"
     }
   ]
 }
