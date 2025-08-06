@@ -302,19 +302,13 @@
       ]
     }
   ],
+  "references": [],
   "projects": [
     {
       "name": "GameBoyJS",
       "isActive": true,
       "description": "A modern JavaScript implementation of a Game Boy emulator built for the web using ES6+ features, designed as a comprehensive learning project to understand computer architecture and emulation principles.",
-      "highlights": [
-        "Architected a complete Game Boy CPU emulator using modern ES6 JavaScript with modular design patterns",
-        "Implemented accurate instruction set emulation including registers, memory management, and timing cycles",
-        "Developed comprehensive PPU (Picture Processing Unit) for authentic graphics rendering and sprite handling",
-        "Created detailed technical documentation and tutorial articles explaining emulation concepts and implementation details",
-        "Built from scratch to understand low-level computer architecture, memory mapping, and hardware emulation principles",
-        "Ongoing development project focusing on accuracy, performance optimization, and educational value"
-      ],
+      "highlights": [],
       "url": null,
       "github": "https://github.com/Cytrogen/GameBoyJs"
     },
@@ -322,14 +316,7 @@
       "name": "Svg2SvgIcon Converter",
       "isActive": true,
       "description": "A pure client-side online tool that converts SVG code or files into Material-UI (MUI) SvgIcon components ready for use in React projects, featuring real-time preview and intelligent parsing capabilities.",
-      "highlights": [
-        "Developed a React-based converter with Material-UI components for seamless SVG to MUI SvgIcon transformation",
-        "Implemented intelligent viewBox parsing that automatically detects existing viewBox attributes or generates them from width/height properties",
-        "Created a real-time viewBox controller with live preview, allowing precise adjustment of icon viewport and cropping",
-        "Built comprehensive SVG parsing engine supporting nested elements, inline styles, and complex SVG structures",
-        "Integrated error handling system with collapsible console and visual error indicators for enhanced user experience",
-        "Ensured complete client-side processing for maximum privacy and security without server data transmission"
-      ],
+      "highlights": [],
       "url": "https://svg2svgicon.cytrogen.icu",
       "github": "https://github.com/cytrogen/svg2svgicon"
     },
@@ -337,14 +324,7 @@
       "name": "BetterBaruch Toolbox Website",
       "isActive": true,
       "description": "A comprehensive collection of utilities designed specifically for the Baruch College community, presented through an engaging, interactive web interface.",
-      "highlights": [
-        "Developed a modern web application using React and Vite for optimized performance and enhanced developer experience",
-        "Created an interactive 3D model of the Baruch Bearcat mascot using Three.js with custom animations and dynamic lighting effects",
-        "Engineered a responsive design system that delivers a consistent experience across desktop and mobile devices",
-        "Implemented a modular architecture allowing for seamless integration of new tools and easy maintenance",
-        "Incorporated efficient routing and state management for a smooth single-page application experience",
-        "Optimized 3D rendering performance through advanced techniques including texture compression and level-of-detail management"
-      ],
+      "highlights": [],
       "url": "https://2b.cytrogen.icu",
       "github": "https://github.com/Cytrogen/better-baruch-website"
     },
@@ -352,12 +332,7 @@
       "name": "BetterBaruch - DegreeWorks Helper",
       "isActive": true,
       "description": "A browser extension that enhances the Baruch College website experience by adding useful features and improvements for students navigating academic resources.",
-      "highlights": [
-        "Engineered a cross-browser extension using vanilla JavaScript for Chrome and Edge platforms",
-        "Implemented a serverless backend architecture with Express.js deployed on AWS Lambda for scalability",
-        "Successfully published and actively maintaining the extension on the Chrome Web Store with regular updates",
-        "Enhanced student website usability through feature additions including improved navigation, information display, and workflow optimizations"
-      ],
+      "highlights": [],
       "url": "https://chromewebstore.google.com/detail/better-baruch/hbhppighkhlcjdbijfgehnjklhepmcmb",
       "github": null
     },
@@ -365,14 +340,7 @@
       "name": "BetterBaruch - Rally Nexus",
       "isActive": true,
       "description": "A comprehensive mobile application designed to enhance the Baruch College student experience by providing centralized access to campus clubs and events information through an intuitive interface.",
-      "highlights": [
-        "Engineered a React Native mobile application that streamlines navigation of Baruch University's student organizations and campus activities",
-        "Designed a scalable NestJS backend with serverless architecture using AWS Lambda and DynamoDB for efficient data management",
-        "Developed an automated web scraper using Puppeteer to extract and synchronize real-time club information from official university sources",
-        "Integrated RSS feed technology to deliver up-to-date campus events directly to users' mobile devices",
-        "Established a CI/CD pipeline with GitHub Actions for automated builds and releases triggered by version tags",
-        "Created a responsive UI that delivers a consistent experience across different mobile devices and screen sizes"
-      ],
+      "highlights": [],
       "url": null,
       "github": "https://github.com/Cytrogen/BetterBaruchRN"
     },
@@ -380,12 +348,7 @@
       "name": "Portfolio Website",
       "isActive": true,
       "description": "Personal portfolio website showcasing projects and skills, built with modern web technologies for optimal performance and user experience.",
-      "highlights": [
-        "Leveraged Astro framework and TailwindCSS to create a high-performance static website with minimal JavaScript",
-        "Implemented responsive design principles ensuring seamless experience across all device sizes",
-        "Integrated dark mode support with persistent user preferences and smooth transitions",
-        "Designed interactive project showcases with engaging animations and comprehensive skills visualization"
-      ],
+      "highlights": [],
       "url": "https://portfolio.cytrogen.icu",
       "github": "https://github.com/Cytrogen/Astro-Portfolio-Page"
     },
@@ -393,12 +356,7 @@
       "name": "Personal Blog",
       "isActive": true,
       "description": "A technical blog platform for sharing in-depth programming insights, tutorials, and development experiences with the broader tech community.",
-      "highlights": [
-        "Leveraged Hexo framework for efficient static site generation and optimal loading performance",
-        "Authored comprehensive technical articles and step-by-step tutorials on various programming topics",
-        "Implemented custom theme modifications and functionality extensions to enhance reader experience",
-        "Established automated content deployment workflows and maintenance processes for consistent publishing"
-      ],
+      "highlights": [],
       "url": "https://cytrogen.icu/en",
       "github": null
     },
@@ -406,26 +364,23 @@
       "name": "HP Instant Ink Calculator",
       "isActive": true,
       "description": "A user-friendly web tool designed to help users determine the most cost-effective HP Instant Ink subscription plan based on their specific printing needs and usage patterns.",
-      "highlights": [
-        "Developed a responsive React-based calculator that determines the most economical HP Instant Ink plan based on page volume",
-        "Implemented bilingual support with seamless switching between English and Chinese interfaces",
-        "Created a transparent cost breakdown showing base costs, extra page fees, and total expenses for all available plans",
-        "Built with client-side processing ensuring calculations are performed locally without sending sensitive data to servers",
-        "Designed with a clean, intuitive UI that highlights the recommended plan for easy decision-making"
-      ],
+      "highlights": [],
       "url": "https://hp2ic.cytrogen.icu",
       "github": "https://github.com/Cytrogen/hp-instant-ink-calculator"
+    },
+    {
+      "name": "Chinese Independent Blogs Status Checker",
+      "isActive": true,
+      "description": "A web-based tool to check the status of blogs listed in the 'chinese-independent-blogs' repository, helping users discover active content creators.",
+      "highlights": [],
+      "url": "https://cibs.cytrogen.icu",
+      "github": "https://github.com/Cytrogen/chinese-independent-blogs-status"
     },
     {
       "name": "Kaspersky To 1Password",
       "isActive": true,
       "description": "A specialized web utility for converting TXT exports from Kaspersky Password Manager into CSV format compatible with 1Password and other password management solutions.",
-      "highlights": [
-        "Implemented client-side file processing architecture ensuring all sensitive data remains local for maximum security",
-        "Developed with React and Tailwind CSS to create a responsive, intuitive user interface across devices",
-        "Engineered comprehensive Unicode character support including CJK (Chinese, Japanese, Korean) text handling",
-        "Created robust UTF-8 encoding for CSV outputs ensuring compatibility with multiple password manager import systems"
-      ],
+      "highlights": [],
       "url": "https://ktoc.cytrogen.icu",
       "github": "https://github.com/Cytrogen/kaspersky-to-1password"
     },
@@ -433,14 +388,7 @@
       "name": "Hexo-Theme-Ares",
       "isActive": true,
       "description": "A feature-rich, highly customizable theme for the Hexo blogging platform that enhances content presentation with advanced functionality and internationalization support.",
-      "highlights": [
-        "Developed a modern theme architecture using Pug templating engine and JavaScript for flexibility and performance",
-        "Implemented lightning-fast local search functionality with keyword highlighting and result previews",
-        "Integrated syntax highlighting for code blocks with customizable styling and line numbering",
-        "Built native support for Mermaid diagrams enabling complex visualizations within blog posts",
-        "Engineered comprehensive internationalization support with multi-language content management",
-        "Incorporated Disqus commenting system and Google Analytics with privacy-conscious loading options"
-      ],
+      "highlights": [],
       "url": null,
       "github": "https://github.com/Cytrogen/hexo-theme-ares"
     },
@@ -448,12 +396,7 @@
       "name": "Shopping-Nest",
       "isActive": false,
       "description": "A full-stack e-commerce platform built to explore and document the complete development process, serving as both a practical implementation and educational resource.",
-      "highlights": [
-        "Architected a comprehensive e-commerce solution with React and TailwindCSS frontend, NestJS and MySQL backend",
-        "Implemented secure user authentication, product catalog management, and interactive shopping cart functionality",
-        "Designed and developed RESTful APIs with proper validation and established secure database connections",
-        "Documented the entire development journey through detailed technical blog posts for educational purposes"
-      ],
+      "highlights": [],
       "url": null,
       "github": null
     },
@@ -461,13 +404,7 @@
       "name": "Hotaru.TS",
       "isActive": false,
       "description": "A Discord-inspired full-stack real-time chat application built as a learning project to explore modern web technologies and architecture patterns.",
-      "highlights": [
-        "Architected a comprehensive chat platform with React frontend and NestJS backend utilizing TypeScript",
-        "Implemented real-time message delivery using Socket.io with optimized event handling and state management",
-        "Designed a scalable data persistence layer using MongoDB for message and user information storage",
-        "Integrated secure file sharing capabilities through MinIO object storage with proper access controls",
-        "Developed a robust authentication system with JWT tokens and role-based authorization"
-      ],
+      "highlights": [],
       "url": null,
       "github": "https://github.com/Cytrogen/Hotaru.TS"
     }
