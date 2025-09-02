@@ -35,6 +35,50 @@
   },
   "work": [
     {
+      "name": "Nexus Advisory Partners LLC",
+      "position": "Full Stack Developer",
+      "location_type": "On-site",
+      "location": "New York, NY",
+      "url": null,
+      "startDate": "2025-03",
+      "endDate": null,
+      "summary": "Driving the creation of the company's core platform using React.js and NestJS. Responsible for the entire development lifecycle, from feature implementation and bug resolution to managing CI/CD pipelines and cloud infrastructure.",
+      "highlights": [
+        "Architected and developed a full-stack application suite, including customer, consultant, and admin portals, using React.js and NestJS.",
+        "Implemented a CI/CD pipeline with BitBucket Pipelines and Docker for automated testing and deployment to AWS.",
+        "Engineered an automated scheduling system by integrating Google Calendar and Google Meet APIs to streamline core business operations."
+      ],
+      "responsibilities": [
+        "Developed and maintained scalable server-side applications and RESTful APIs using NestJS, MongoDB, and Redis.",
+        "Built dynamic and responsive user interfaces with React.js and TypeScript, translating business requirements from Jira tickets into features.",
+        "Managed application deployment, scaling, and security using Docker, AWS, and CloudFlare.",
+        "Collaborated with management and senior leadership to define technical specifications and deliver on project milestones.",
+        "Conducted performance tuning, debugging, and code reviews to ensure code quality and application stability."
+      ],
+      "achievements": [
+        "Successfully delivered a multi-portal platform from concept to a production-ready state, providing the foundational technology for the company's launch.",
+        "Built key automation features for appointment scheduling and email notifications, significantly reducing the need for future manual intervention.",
+        "Improved application load times and security posture through strategic use of AWS infrastructure and CloudFlare services."
+      ],
+      "skills": [
+        "JavaScript",
+        "TypeScript",
+        "React.js",
+        "Node.js",
+        "NestJS",
+        "MongoDB",
+        "Redis",
+        "Docker",
+        "AWS",
+        "CloudFlare",
+        "CI/CD",
+        "BitBucket",
+        "Git",
+        "Jira",
+        "API Development"
+      ]
+    },
+    {
       "name": "Verderia NGO",
       "position": "Website Administrator",
       "location_type": "Remote",
